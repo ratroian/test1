@@ -1,0 +1,11 @@
+.features-list {
+    display: flex;
+    padding: 0;
+    margin-top: 80px;
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        
+    }
+}

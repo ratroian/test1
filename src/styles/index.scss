@@ -1,0 +1,25 @@
+//global
+@import "global/color.scss";
+@import "global/fonts.scss";
+@import "global/body-wrapper.scss";
+@import "global/box-sizing.scss";
+@import "global/viewports.scss";
+
+
+//blocks
+@import "blocks/page.scss";
+@import "blocks/list-style-reset.scss";
+@import "blocks/body.scss";
+@import "blocks/navigation-list.scss";
+@import "blocks/header.scss";
+@import "blocks/button.scss";
+@import "blocks/link-reset.scss";
+@import "blocks/logo.scss";
+@import "blocks/visually-hiden.scss";
+@import "blocks/main.scss";
+@import "blocks/hero.scss";
+@import "blocks/content-list.scss";
+@import "blocks/features-list.scss";
+@import "blocks/promo.scss";
+@import "blocks/price.scss";
+@import "blocks/footer.scss";

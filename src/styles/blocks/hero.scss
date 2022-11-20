@@ -1,0 +1,38 @@
+.hero {
+    // align-self: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 55%;
+    padding-top: 250px;
+    padding-bottom: 386px;
+    align-items: flex-start;
+
+    &__title {
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 1.32;
+        margin-bottom: 20px;
+        margin: 0;
+        letter-spacing: 1px;
+    }
+
+    &__title {
+        text-align: start;
+    }
+
+    &__wrapper {
+        display: flex;
+        margin-top: 70px;
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: $desktop-width) {
+    .hero {
+        &__wrapper {
+            min-width: 435px;
+        }
+    }
+};
